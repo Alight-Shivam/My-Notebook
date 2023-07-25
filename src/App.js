@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
+import Alert from "./components/Alert";
 import About from "./components/About"
 import {
   BrowserRouter as Router,
@@ -15,6 +16,7 @@ function App() {
     <NoteState>
      <Router>
     <Navbar />
+    <Alert message = "Hey! Babe"/>
     <div className="container">
      <Routes>
      <Route path="/" element={<Home />} />
