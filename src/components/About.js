@@ -4,17 +4,17 @@ const About = () => {
     
   return (
     <div>
-      <div class="row">
-  <div class="col-4">
-    <div id="list-example" class="list-group">
-      <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
-      <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
-      <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
-      <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+      <div className="row">
+  <div className="col-4">
+    <div id="list-example" className="list-group">
+      <a className="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
+      <a className="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
+      <a className="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
+      <a className="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
     </div>
   </div>
-  <div class="col-8">
-    <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+  <div className="col-8">
+    <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" className="scrollspy-example" tabindex="0">
       <h4 id="list-item-1">Item 1</h4>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae fugiat expedita ullam. Asperiores labore inventore cumque maxime reiciendis, quasi atque facere, cum minima illo assumenda vero! Maxime, blanditiis. Ex animi quod officiis in quam ad nobis numquam voluptatum cumque, quos, laborum pariatur voluptatibus reprehenderit. Consequuntur praesentium quo impedit nemo quisquam quod! Quam perspiciatis sed natus dicta ad in quia fuga dolorem ex iste labore quos exercitationem vitae alias aut, rerum possimus magnam quibusdam nisi!
       </p>
