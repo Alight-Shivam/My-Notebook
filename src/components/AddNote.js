@@ -21,11 +21,11 @@ const AddNote = () => {
       <form className='my-3'>
   <div className="mb-3">
     <label htmlFor="title" className="form-label">Title</label>
-    <input type="text" className="form-control" id="title" name="title" aria-describedby="emailHelp" onChange={onChange}/>
+    <input type="text" className="form-control" id="title" name="title" aria-describedby="emailHelp" onChange={onChange} minLength={3} required/>
   </div>
   <div className="mb-3">
     <label htmlFor="description" className="form-label">Description</label>
-    <input type="text" className="form-control" id="description" name="description" onChange={onChange}/>
+    <input type="text" className="form-control" id="description" name="description" onChange={onChange}minLength={5} required/>
   </div>
   
   <div className="mb-3">
