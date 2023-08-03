@@ -31,7 +31,7 @@ const Notes = () => {
   return (
     <>
   <AddNote/>
-  <button  ref={ref} type="button" className="btn btn-info d-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  <button ref={ref} type="button" className="btn btn-info d-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
   Launch demo modal
 </button>
 
