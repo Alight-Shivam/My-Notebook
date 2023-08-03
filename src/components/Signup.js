@@ -32,9 +32,10 @@ const Signup = (props) => {
       setCredentials({...credentials, [e.target.name]: e.target.value})
      }
   return (
-    <div>
+    <div className='container mt-2'>
+    <h2 className='my-2'>Create an acount to access myNotebook</h2>
       <form onSubmit={handleSubmit}>
-  <div className="mb-3">
+  <div className="my-3">
     <label htmlFor="name" className="form-label">Name</label>
     <input type="email" className="form-control" id="name" name="name" onChange={onChange}
     aria-describedby="emailHelp"/>

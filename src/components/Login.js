@@ -18,8 +18,8 @@ const response = await fetch("http://localhost:5000/api/auth/login", {
     if(json.success){
       // save the token and redirect
       localStorage.setItem('token', json.authtoken);
-      history.push("/");
       props.showAlert("Logged in Successfully", "success")
+      history.push("/");
     }
     else{
       props.showAlertalert("Invalid credentials", "danger");
@@ -30,7 +30,8 @@ const onChange = (e)=>{
  }
 
   return (
-    <div>
+    <div className='mt-3'>
+      <h2>Login to access myNotebook</h2>
       <form onSubmit={handleSubmit}>
   <div className="mb-3">
     <label htmlFor="email" className="form-label">Email address</label>
